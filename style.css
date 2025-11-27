@@ -1,0 +1,62 @@
+root {
+    --cor-fundo: #1483e3;
+    --cor-principal: #19237e;
+    --cor-secundaria: #2e3354;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+
+
+}
+/* Centralização geral da tela */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+}
+
+/* Pergunta maior e destacada */
+.caixa-pergunta {
+  font-size: 2rem; /* Aumenta o tamanho da fonte */
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #1e90ff;
+}
+
+/* Botões das alternativas */
+.caixa-alternativas button {
+  display: block;
+  margin: 15px auto;
+  padding: 18px 30px;
+  font-size: 1.3rem; /* Aumenta o tamanho das alternativas */
+  border: none;
+  border-radius: 8px;
+  background-color: #1e90ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 80%;
+  max-width: 400px;
+}
+
+.caixa-alternativas button:hover {
+  background-color: #0066cc;
+  transform: scale(1.05);
+}
+
+/* Resultado */
+.caixa-resultado {
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #ccc;
+}
